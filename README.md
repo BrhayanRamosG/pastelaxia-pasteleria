@@ -1,6 +1,6 @@
 # Práctica HTML
 
-## Caso pasteleria
+## Caso pastelería
 
 Maquetación HTML
 
