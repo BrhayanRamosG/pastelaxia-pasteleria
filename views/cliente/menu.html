@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../../styles/style.css">
+    <title>Men&uacute; | Pastelaxia</title>
+</head>
+
+<body>
+    <header>
+        <a href="../../index.html">Regresar</a>
+        <h1 class="title_menu">Men&uacute;</h1>
+    </header>
+    <section>
+        <h2 class="subtitle_menu">Sabores</h2>
+        <ul class="menu">
+            <li>Pastel de chocochips -----------------$250</li>
+            <li>Pastel de nuez -------------------------$220</li>
+            <li>Pastel de caf&eacute; --------------------------$480</li>
+            <li>Pastel de mora -------------------------$290</li>
+            <li>Pastel de helado -----------------------$320</li>
+        </ul>
+    </section>
+    <section>
+        <h2 class="subtitle_menu">Adornos</h2>
+        <ul class="menu">
+            <li>Spiderman ------------------------------$35</li>
+            <li>Batman ----------------------------------$40</li>
+            <li>Roca lunar ------------------------------$50</li>
+            <li>Estrellas ---------------------------------$80</li>
+            <li>Cohete -----------------------------------$120</li>
+        </ul>
+    </section>
+    <section>
+        <form action="submit.js">
+            <label for="nombre">Nombre</label><br />
+            <input id="nombre" type="text" placeholder="Ingresa tu nombre"><br />
+
+            <label for="telefono">Tel&eacute;fono</label><br />
+            <input id="telefono" type="tel" placeholder="Ingresa tu tel&eacute;fono" maxlength="10"><br />
+
+            <label for="email">Correo electr&oacute;nico</label><br />
+            <input id="email" type="email" placeholder="Ingresa tu correo electr&oacute;nico" maxlength="10"><br />
+
+            <label for="descripcion">Descripci&oacute;n pastel</label><br />
+            <textarea name="descripcion" id="descripcion" cols="25" rows="3"
+                placeholder="Ingresa descripci&oacute;n"></textarea><br />
+
+            <label for="sabores">Sabores</label><br />
+            <input list="sabores"><br />
+            <datalist id="sabores">
+                <option value="Pastel de chocochips">
+                <option value="Pastel de nuez">
+                <option value="Pastel de caf&eacute;">
+                <option value="Pastel de mora">
+                <option value="Pastel de helado">
+            </datalist>
+
+            <label for="adornos">Adornos</label><br />
+            <input list="adornos"><br />
+            <datalist id="adornos">
+                <option value="Spiderman">
+                <option value="Batman">
+                <option value="Roca lunar">
+                <option value="Estrellas">
+                <option value="Cohete">
+            </datalist><br />
+            <button type="submit">
+                Realizar pedido
+            </button>
+        </form>
+    </section>
+
+</body>
+
+</html>
